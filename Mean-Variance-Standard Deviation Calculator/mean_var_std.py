@@ -1,5 +1,8 @@
 import numpy as np
 
+# a method to convert a list into a 3x3 matrix and calculate mean, variance, standard deviation, max, min, 
+# and sum along both axes and for the flattened matrix
+
 def calculate(list):
   if (len(list)<9):
     raise ValueError("List must contain nine numbers.")
@@ -22,6 +25,9 @@ def calculate(list):
   sum1 = (A.sum(axis = 0)).tolist()
   sum2 = (A.sum(axis = 1)).tolist()
   sum3 = (A.flatten().sum()).tolist()
+  
+  #returning the result in a dictionary
+  
   calculations = {'mean': [mean1, mean2, mean3],
   'variance': [variance1, variance2, variance3],
   'standard deviation': [std1, std2, std3],
