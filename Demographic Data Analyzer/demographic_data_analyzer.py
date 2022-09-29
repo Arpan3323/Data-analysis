@@ -74,7 +74,7 @@ def calculate_demographic_data(print_data=True):
     richIndianOccupation.value_counts().index[0]
     top_IN_occupation = richIndianOccupation.value_counts().index[0]
 
-    # DO NOT MODIFY BELOW THIS LINE
+
 
     if print_data:
         print("Number of each race:\n", race_count) 
