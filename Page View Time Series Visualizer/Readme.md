@@ -1,2 +1,4 @@
-#Page View Time Series Visualizer
- Used Pandas, Matplotlib, and Seaborn to visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. The data visualizations will help in understanding the patterns in visits and identify yearly and monthly growth in page views.
+Page View Time Series Visualizer
+
+
+Used Pandas, Matplotlib, and Seaborn to visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. The data visualizations will help in understanding the patterns in visits and identify yearly and monthly growth in page views.
